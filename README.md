@@ -56,8 +56,8 @@ When reading the data I saw some values that were weird, such as some weird valu
 - 1) I focused on the 'binary' columns: `sex` and `fatal`.
 - 2) `case_number` used to have a pattern that got lost somehow, so I'm going to fix that using the `pdf` column.
 - 3) Fix incorrect dtypes in `year` and `original order`.
-- 4) `species` column is specially messy, and it needs really important care.
-- 5) The same as `species` goes with `activity`.
+- 4) Normalizing data on `species` column.
+- 5) Normalizing data on `activity` column.
 
 # 3. Objective
 My objective is to see how each species of shark like their food: swimming, surfing, diving... so I'm going to take a slice of the dataframe taking the data I need for this important ivestigation.
