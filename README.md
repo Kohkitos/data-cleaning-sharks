@@ -41,3 +41,6 @@ First, I tried to understand the dataframe and make sense out of every column be
 - `unnamed 22` & `unnamed 23`: nan columns.
 
 Some of the columns are poorly written (for example, there is an space after the "Sex " column name) and have some inconsistencies on their name, so normalization of the column names is going to be a priority.
+
+## 2.2. Cleaning nan values
+General cleaning of nan and null values.
