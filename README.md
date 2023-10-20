@@ -3,5 +3,41 @@
 # Data Cleaning Project
 Iron Hack's second week Data Cleaning project with Pandas using a data set about Shark Attacks globaly.
 
-# The Goal
+This `README.md` will work as kind of a blog of my procedure during the project. Any insights will be inside the `sharks.ipynb`.
+
+# 1. Project Description
+## The Goal
 The goal of the project is to clean the messy data set using the knowledge acquired during the bootcamp's week 2.
+
+## Project Restrictions
+- None of the columns can be removed, only modified.
+- There should be ***at least*** 2.500 rows.
+
+# 2. Procedure
+## 2.1. Exploration
+First, I tried to understand the dataframe and make sense out of every column before stablishing an objective.
+- `Case Number`: it started with a real case number, but most recent data are just dates (yyyy.mm.dd).
+- `Date`: the date. Some of them are on a range (eg. 1845-1853), others a relative date (eg. Before 1903) and specic dates (dd-mnth-yyyy).
+- `Year`: the year. Some are the precise year, but in ranges or relatives date is a 0.0.
+- `Type`: how it happened.
+- `Country`: which country.
+- `Area`: on which area of the country.
+- `Location`: on which location of the country.
+- `Activity`: what was the victim doing.
+- `Name`: name of the victim.
+- `Sex`: sex of the victim [M/F].
+- `Age`: age of the victim.
+- `Injury`: injury of the vitim.
+- `Fatal`: was it fatal [Y/N].
+- `Time`: time of the attack.
+- `Species`: species of the shark.
+- `Investigator`: who investigated the case.
+- `PDF`: pdf name ref of the attack.
+- `href formulas`: online pdf of the attack.
+- `href`: online pdf of the attack.
+- `case number 1`:
+- `case number 2`:
+- `original order`: order in which the attacks were registered.
+- `unnamed 22` & `unnamed 23`: nan columns.
+
+Some of the columns are poorly written (for example, there is an space after the "Sex " column name) and have some inconsistencies on their name, so normalization of the column names is going to be a priority.
