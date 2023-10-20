@@ -1,4 +1,4 @@
-![portada](https://github.com/Kohkitos/data-cleaning-sharks/blob/main/img/shark2.jpg)
+![cover](https://github.com/Kohkitos/data-cleaning-sharks/blob/main/img/shark.jpg)
 
 # Data Cleaning Project
 Iron Hack's second week Data Cleaning project with Pandas using a data set about Shark Attacks globaly.
@@ -44,3 +44,8 @@ Some of the columns are poorly written (for example, there is an space after the
 
 ## 2.2. Cleaning nan values
 General cleaning of nan and null values.
+
+## 2.3. Checking for incorrect values
+When reading the data I saw some values that were weird, such as some weird values in sex (which should be M or F (or unknown)), some inconsistencies in the case number, etc.
+
+- First, I focused on the 'binary' columns: Sex and Fatal.
