@@ -1,4 +1,4 @@
-![cover](https://github.com/Kohkitos/data-cleaning-sharks/blob/main/img/shark.jpg)
+![portada](https://github.com/Kohkitos/data-cleaning-sharks/blob/main/img/shark2.jpg)
 
 # Data Cleaning Project
 Iron Hack's second week Data Cleaning project with Pandas using a data set about Shark Attacks globaly.
