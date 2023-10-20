@@ -38,8 +38,8 @@ First, I tried to understand the dataframe and make sense out of every column be
 - `PDF`: pdf name ref of the attack.
 - `href formulas`: online pdf of the attack.
 - `href`: online pdf of the attack.
-- `case number 1`:
-- `case number 2`:
+- `case number 1`: duplicate of case number column.
+- `case number 2`: duplicate of case number column.
 - `original order`: order in which the attacks were registered.
 - `unnamed 22` & `unnamed 23`: nan columns.
 
