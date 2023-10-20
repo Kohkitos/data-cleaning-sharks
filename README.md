@@ -13,6 +13,9 @@ The goal of the project is to clean the messy data set using the knowledge acqui
 - None of the columns can be removed, only modified.
 - There should be ***at least*** 2.500 rows.
 
+## Bonus goal
+The project has the bonus goal of having an objective, modify data according to that objective and have a written analysis with the final conclusion of our study.
+
 # 2. Procedure
 ## 2.1. Exploration
 First, I tried to understand the dataframe and make sense out of every column before stablishing an objective.
@@ -48,5 +51,10 @@ General cleaning of nan and null values.
 ## 2.3. Checking for incorrect values
 When reading the data I saw some values that were weird, such as some weird values in sex (which should be M or F (or unknown)), some inconsistencies in the case number, etc.
 
-- First, I focused on the 'binary' columns: Sex and Fatal.
-- Second, case_number used to have a pattern that got lost somehow, so I'm going to fix that.
+- 1) I focused on the 'binary' columns: `sex` and `fatal`.
+- 2) `case_number` used to have a pattern that got lost somehow, so I'm going to fix that using the `pdf` column.
+- 3) `species` column is specially messy, and it needs really important care.
+- 4) The same as `species` goes with `activity`.
+
+### 3. Objective
+My objective is to see how each species of shark like their food: swimming, surfing, diving... so I'm going to take a slice of the dataframe taking the data I need for this important ivestigation.
