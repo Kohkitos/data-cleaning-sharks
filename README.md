@@ -49,3 +49,4 @@ General cleaning of nan and null values.
 When reading the data I saw some values that were weird, such as some weird values in sex (which should be M or F (or unknown)), some inconsistencies in the case number, etc.
 
 - First, I focused on the 'binary' columns: Sex and Fatal.
+- Second, case_number used to have a pattern that got lost somehow, so I'm going to fix that.
