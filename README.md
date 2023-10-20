@@ -45,6 +45,8 @@ First, I tried to understand the dataframe and make sense out of every column be
 
 Some of the columns are poorly written (for example, there is an space after the "Sex " column name) and have some inconsistencies on their name, so normalization of the column names is going to be a priority.
 
+Also, I'm going to rearrange the columns so their order makes more sense to me, as well as filling duplicated columns with 0 (since dropping them is forbidden).
+
 ## 2.2. Cleaning nan values
 General cleaning of nan and null values.
 
