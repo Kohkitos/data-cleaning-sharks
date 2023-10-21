@@ -61,6 +61,9 @@ When reading the data I saw some values that were weird, such as some weird valu
 - 6) Normalizing `time` column.
 
 # 3. Investigation
+
+## 3.1. Procedure
+
 My objective is to see how each species of shark like their food: swimming, surfing, diving... and to see when do they prefer to eat, categorizing them between early bird eater, afternoon yummys guy, evening diner guy and late snacker.
 
 - 1. Make a slice of the dataframe with the columns needed.
@@ -71,3 +74,10 @@ My objective is to see how each species of shark like their food: swimming, surf
 - 6. Import it as csv.
 
 Finally, I'm going to create a little computer program to access to the information and adding new if wanted.
+
+## 3.2. Conclussions
+
+Sharks are very funny guys and they like their food when they are fishing, literally hunter being hunted! Instant karma! Also, the majority are afternoon yummy guys, meaning that they prefer to eat after working hours, isn't that relatable? They are just like us.
+
+# 4. Program Use
+When initialized, it will ask for a shark species and search for it in the database. If the species doesn't exist in the database, it will ask if you want to add that species to the database and then be prompted to add its prefered food and when does it like to eat. The csv will be overwritted with the data inputted there.
