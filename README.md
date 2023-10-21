@@ -81,7 +81,7 @@ Finally, I'm going to create a little computer program to access to the informat
 
 ## 3.2. Conclusions
 
-Sharks are very funny guys and they like their food when they are fishing, literally hunter being hunted! Instant karma! Also, the majority are afternoon yummy guys, meaning that they prefer to eat after working hours, isn't that relatable? They are just like us.
+Sharks are very funny guys and they like their food when it is fishing, literally hunter being hunted! Instant karma! Also, the majority are afternoon yummy guys, meaning that they prefer to eat after working hours, isn't that relatable? They are just like us.
 
 # 4. Program Use
 When initialized, it will ask for a shark species and search for it in the database. If the species doesn't exist in the database, it will ask if you want to add that species to the database and then be prompted to add its preferred food and when does it like to eat. The csv will be overwrote with the data inputted there.
