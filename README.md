@@ -68,3 +68,6 @@ My objective is to see how each species of shark like their food: swimming, surf
 - 3. Make another one but with the prefered time of the day.
 - 4. Adding a column to the last one with the kind of snacker.
 - 5. Merge the two together.
+- 6. Import it as csv.
+
+Finally, I'm going to create a little computer program to access to the information and adding new if wanted.
