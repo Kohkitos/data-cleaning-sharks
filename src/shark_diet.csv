@@ -1,0 +1,32 @@
+Species,Food Preference,Kind of Snacker
+Angel,['Diving' 'Swimming'],"['Afternoon Yummys Guy', 'Evening Dinner Fella']"
+Barracua,Surf,Early Bird Eater
+Blacktip,Surf,Afternoon Yummys Guy
+Blue,['Fishing' 'Swimming'],Afternoon Yummys Guy
+Bonita,Fishing,Late Snacker
+Bull,Swimming,Afternoon Yummys Guy
+Carcharinid,Swimming,Early Bird Eater
+Cookiecutter,Swimming,Evening Dinner Fella
+Cow,Fishing,Early Bird Eater
+Dusky,['Diving' 'Fishing' 'Surf'],"['Afternoon Yummys Guy', 'Early Bird Eater']"
+Galapagos,Swimming,Afternoon Yummys Guy
+Grey,Fishing,Afternoon Yummys Guy
+Hammerhead,Fishing,Afternoon Yummys Guy
+Lemon,Surf,Early Bird Eater
+Mako,Fishing,Afternoon Yummys Guy
+Nurse,Fishing,Afternoon Yummys Guy
+Other,Surf,Afternoon Yummys Guy
+Porbeagle,Diving,Afternoon Yummys Guy
+Raggedtooth,Fishing,Afternoon Yummys Guy
+Reef,Fishing,Afternoon Yummys Guy
+Salmon,Swimming,Late Snacker
+Sandbar,Fishing,Afternoon Yummys Guy
+Silky,Diving,Afternoon Yummys Guy
+Spinner,Surf,Afternoon Yummys Guy
+Stingray,Fishing,Late Snacker
+Thresher,Fishing,Afternoon Yummys Guy
+Tiger,Surf,Afternoon Yummys Guy
+Whaler,Surf,Afternoon Yummys Guy
+White,Surf,Afternoon Yummys Guy
+Wobbegong,['Surf' 'Swimming'],"['Afternoon Yummys Guy', 'Evening Dinner Fella']"
+Zambezi,Swimming,Early Bird Eater

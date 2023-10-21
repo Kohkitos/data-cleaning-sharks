@@ -14,7 +14,7 @@ The goal of the project is to clean the messy data set using the knowledge acqui
 - There should be ***at least*** 2.500 rows.
 
 ## Bonus goal
-The project has the bonus goal of having an objective, modify data according to that objective and have a written analysis with the final conclusion of our study.
+The project has the bonus goal of having an objective, modify data according to that objective and have a written analysis with the final conclusion of our investigation.
 
 # 2. Procedure
 ## 2.1. Exploration
@@ -60,7 +60,7 @@ When reading the data I saw some values that were weird, such as some weird valu
 - 5) Normalizing data on `species` column.
 - 6) Normalizing `time` column.
 
-# 3. Objective
+# 3. Investigation
 My objective is to see how each species of shark like their food: swimming, surfing, diving... and to see when do they prefer to eat, categorizing them between early bird eater, afternoon yummys guy, evening diner guy and late snacker.
 
 - 1. Make a slice of the dataframe with the columns needed.
