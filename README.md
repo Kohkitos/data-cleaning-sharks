@@ -34,7 +34,7 @@ First, I tried to understand the dataframe and make sense out of every column be
 - `Fatal`: was it fatal [Y/N].
 - `Time`: time of the attack.
 - `Species`: species of the shark.
-- `Investigator`: who investigated the case.
+- `Investigator_or_source`: where the data is comming from.
 - `PDF`: pdf name ref of the attack.
 - `href formulas`: online pdf of the attack.
 - `href`: online pdf of the attack.
@@ -61,4 +61,4 @@ When reading the data I saw some values that were weird, such as some weird valu
 - 6) Normalizing `time` column.
 
 # 3. Objective
-My objective is to see how each species of shark like their food: swimming, surfing, diving... so I'm going to take a slice of the dataframe taking the data I need for this important ivestigation.
+My objective is to see how each species of shark like their food: swimming, surfing, diving... and to see when do they prefer to eat, categorizing them between early bird eater, afternoon yummys guy, evening diner guy and late snacker.
