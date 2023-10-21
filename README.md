@@ -1,7 +1,7 @@
 ![cover](https://github.com/Kohkitos/data-cleaning-sharks/blob/main/img/shark2.jpg)
 
 # Data Cleaning Project
-Iron Hack's second week Data Cleaning project with Pandas using a data set about Shark Attacks globaly.
+Iron Hack's second week Data Cleaning project with Pandas using a data set about Shark Attacks globally.
 
 This `README.md` will work as kind of a blog of my procedure during the project. Any insights will be inside the `sharks.ipynb`.
 
@@ -18,9 +18,9 @@ The project has the bonus goal of having an objective, modify data according to 
 
 # 2. Procedure
 ## 2.1. Exploration
-First, I tried to understand the dataframe and make sense out of every column before stablishing an objective.
+First, I tried to understand the dataframe and make sense out of every column before establishing an objective.
 - `Case Number`: it started with a real case number, but most recent data are just dates (yyyy.mm.dd).
-- `Date`: the date. Some of them are on a range (eg. 1845-1853), others a relative date (eg. Before 1903) and specic dates (dd-mnth-yyyy).
+- `Date`: the date. Some of them are on a range (eg. 1845-1853), others a relative date (eg. Before 1903) and specific dates (dd-mnth-yyyy).
 - `Year`: the year. Some are the precise year, but in ranges or relatives date is a 0.0.
 - `Type`: how it happened.
 - `Country`: which country.
@@ -34,7 +34,7 @@ First, I tried to understand the dataframe and make sense out of every column be
 - `Fatal`: was it fatal [Y/N].
 - `Time`: time of the attack.
 - `Species`: species of the shark.
-- `Investigator_or_source`: where the data is comming from.
+- `Investigator_or_source`: where the data is coming from.
 - `PDF`: pdf name ref of the attack.
 - `href formulas`: online pdf of the attack.
 - `href`: online pdf of the attack.
@@ -59,6 +59,10 @@ When reading the data I saw some values that were weird, such as some weird valu
 - 4) Normalizing data on `activity` column.
 - 5) Normalizing data on `species` column.
 - 6) Normalizing `time` column.
+- 7) Normalizing `name` column.
+- 8) Normalizing `age` column.
+
+The other columns were not normalize because, without information about the csv I don't know if the information should be overwrote or not, even the duplicates, so I leave it to future investigators.
 
 # 3. Investigation
 
@@ -67,17 +71,24 @@ When reading the data I saw some values that were weird, such as some weird valu
 My objective is to see how each species of shark like their food: swimming, surfing, diving... and to see when do they prefer to eat, categorizing them between early bird eater, afternoon yummys guy, evening diner guy and late snacker.
 
 - 1. Make a slice of the dataframe with the columns needed.
-- 2. Make a dataframe using groupby with the mode of the prefered food.
-- 3. Make another one but with the prefered time of the day.
+- 2. Make a dataframe using groupby with the mode of the preferred food.
+- 3. Make another one but with the preferred time of the day.
 - 4. Adding a column to the last one with the kind of snacker.
 - 5. Merge the two together.
 - 6. Import it as csv.
 
 Finally, I'm going to create a little computer program to access to the information and adding new if wanted.
 
-## 3.2. Conclussions
+## 3.2. Conclusions
 
 Sharks are very funny guys and they like their food when they are fishing, literally hunter being hunted! Instant karma! Also, the majority are afternoon yummy guys, meaning that they prefer to eat after working hours, isn't that relatable? They are just like us.
 
 # 4. Program Use
-When initialized, it will ask for a shark species and search for it in the database. If the species doesn't exist in the database, it will ask if you want to add that species to the database and then be prompted to add its prefered food and when does it like to eat. The csv will be overwritted with the data inputted there.
+When initialized, it will ask for a shark species and search for it in the database. If the species doesn't exist in the database, it will ask if you want to add that species to the database and then be prompted to add its preferred food and when does it like to eat. The csv will be overwrote with the data inputted there.
+
+# 5. Project Conclusions
+The project was actually to test the abilities and tools we learn on week 2 of the Iron Hack's Data Analysis Bootcamp. I don't believe me or anyone alone can clean that dataset in a few days with little experience, to be honest.
+
+I've perfected my usage of lambdas and have finally understood how to use some pandas functions I didn't actually understand, specially .loc[] that was always a problem for me to use. I've also experimented with the fuzzywuzzy library and proved to be very useful, and I've barely use its full potential. The most important thing I've learned is how to organize a data cleaning project, as I started in a very messy way but then became more rigorous with my methodology and decision making.
+
+I've grown a lot as a developer during this project and I feel confident about future data cleaning projects.

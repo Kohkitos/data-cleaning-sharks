@@ -5,10 +5,10 @@ Blacktip,Surfing,Afternoon Yummys Guy
 Blue,['Fishing' 'Swimming'],Afternoon Yummys Guy
 Bonita,Fishing,Late Snacker
 Bull,Swimming,Afternoon Yummys Guy
-Carcharinid,Swimming,Early Bird Eater
+Carcharinid,['Fishing' 'Swimming'],"['Afternoon Yummys Guy', 'Early Bird Eater']"
 Cookiecutter,Swimming,Evening Dinner Fella
 Cow,Fishing,Early Bird Eater
-Dusky,['Diving' 'Fishing' 'Surfing'],"['Afternoon Yummys Guy', 'Early Bird Eater']"
+Dusky,['Diving' 'Surfing'],"['Afternoon Yummys Guy', 'Early Bird Eater']"
 Galapagos,Swimming,Afternoon Yummys Guy
 Grey,Fishing,Afternoon Yummys Guy
 Hammerhead,Fishing,Afternoon Yummys Guy
@@ -21,13 +21,12 @@ Raggedtooth,Fishing,Afternoon Yummys Guy
 Reef,Fishing,Afternoon Yummys Guy
 Salmon,Swimming,Late Snacker
 Sandbar,Fishing,Afternoon Yummys Guy
-Sandtiger,['Diving' 'Fishing' 'Swimming'],Afternoon Yummys Guy
 Silky,Diving,Afternoon Yummys Guy
 Spinner,Surfing,Afternoon Yummys Guy
 Stingray,Fishing,Late Snacker
 Thresher,Fishing,Afternoon Yummys Guy
 Tiger,Surfing,Afternoon Yummys Guy
-Whale,Surfing,Afternoon Yummys Guy
+Whaler,Surfing,Afternoon Yummys Guy
 White,Surfing,Afternoon Yummys Guy
 Wobbegong,['Surfing' 'Swimming'],"['Afternoon Yummys Guy', 'Evening Dinner Fella']"
-Zambesi,Swimming,Early Bird Eater
+Zambezi,Swimming,Early Bird Eater
