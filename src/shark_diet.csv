@@ -12,7 +12,7 @@ Dusky,['Diving' 'Fishing' 'Surfing'],"['Afternoon Yummys Guy', 'Early Bird Eater
 Galapagos,Swimming,Afternoon Yummys Guy
 Grey,Fishing,Afternoon Yummys Guy
 Hammerhead,Fishing,Afternoon Yummys Guy
-Lemon,Surfing,Early Bird Eater
+Lemon,Fishing,"['Afternoon Yummys Guy', 'Early Bird Eater']"
 Mako,Fishing,Afternoon Yummys Guy
 Nurse,Fishing,Afternoon Yummys Guy
 Other,Surfing,Afternoon Yummys Guy
@@ -29,6 +29,5 @@ Thresher,Fishing,Afternoon Yummys Guy
 Tiger,Surfing,Afternoon Yummys Guy
 Whale,Surfing,Afternoon Yummys Guy
 White,Surfing,Afternoon Yummys Guy
-Whitetip,Diving,Afternoon Yummys Guy
 Wobbegong,['Surfing' 'Swimming'],"['Afternoon Yummys Guy', 'Evening Dinner Fella']"
 Zambesi,Swimming,Early Bird Eater
