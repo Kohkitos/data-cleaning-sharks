@@ -87,7 +87,7 @@ Sharks are very funny guys and they like their food when they are fishing, liter
 When initialized, it will ask for a shark species and search for it in the database. If the species doesn't exist in the database, it will ask if you want to add that species to the database and then be prompted to add its preferred food and when does it like to eat. The csv will be overwrote with the data inputted there.
 
 # 5. Project Conclusions
-The project was actually to test the abilities and tools we learn on week 2 of the Iron Hack's Data Analysis Bootcamp. I don't believe me or anyone alone can clean that dataset in a few days with little experience, to be honest.
+The project was actually to test the abilities and tools we learnt on week 2 of the Iron Hack's Data Analysis Bootcamp. I don't believe me or anyone alone can clean that dataset in a few days with little experience, to be honest.
 
 I've perfected my usage of lambdas and have finally understood how to use some pandas functions I didn't actually understand, specially .loc[] that was always a problem for me to use. I've also experimented with the fuzzywuzzy library and proved to be very useful, and I've barely use its full potential. The most important thing I've learned is how to organize a data cleaning project, as I started in a very messy way but then became more rigorous with my methodology and decision making.
 
