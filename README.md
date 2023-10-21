@@ -58,6 +58,7 @@ When reading the data I saw some values that were weird, such as some weird valu
 - 3) Fix incorrect dtypes in `year` and `original order`.
 - 4) Normalizing data on `activity` column.
 - 5) Normalizing data on `species` column.
+- 6) Normalizing `time` column.
 
 # 3. Objective
 My objective is to see how each species of shark like their food: swimming, surfing, diving... so I'm going to take a slice of the dataframe taking the data I need for this important ivestigation.
