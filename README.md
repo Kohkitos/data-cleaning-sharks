@@ -62,3 +62,9 @@ When reading the data I saw some values that were weird, such as some weird valu
 
 # 3. Objective
 My objective is to see how each species of shark like their food: swimming, surfing, diving... and to see when do they prefer to eat, categorizing them between early bird eater, afternoon yummys guy, evening diner guy and late snacker.
+
+- 1. Make a slice of the dataframe with the columns needed.
+- 2. Make a dataframe using groupby with the mode of the prefered food.
+- 3. Make another one but with the prefered time of the day.
+- 4. Adding a column to the last one with the kind of snacker.
+- 5. Merge the two together.
