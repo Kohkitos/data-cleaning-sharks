@@ -1,32 +1,53 @@
 Species,Food Preference,Kind of Snacker
-Angel,['Diving' 'Swimming'],"['Afternoon Yummys Guy', 'Evening Dinner Fella']"
+Angel,"['Diving', 'Swimming']
+Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']","['Afternoon Yummys Guy', 'Evening Dinner Fella']"
 Barracua,Surfing,Early Bird Eater
+Basking,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
 Blacktip,Surfing,Afternoon Yummys Guy
-Blue,['Fishing' 'Swimming'],Afternoon Yummys Guy
-Bonita,Fishing,Late Snacker
-Bull,Swimming,Afternoon Yummys Guy
-Carcharinid,['Fishing' 'Swimming'],"['Afternoon Yummys Guy', 'Early Bird Eater']"
+Blue,"['Fishing', 'Surfing', 'Swimming']
+Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",Afternoon Yummys Guy
+Bluefish,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
+Bonita,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
+Bonnethed,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
+Brown,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
+Bull,Surfing,Afternoon Yummys Guy
+Carcharinid,"['Fishing', 'Swimming']
+Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']","['Afternoon Yummys Guy', 'Early Bird Eater']"
+Carpet,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
 Cookiecutter,Swimming,Evening Dinner Fella
+Copper,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
 Cow,Fishing,Early Bird Eater
-Dusky,['Diving' 'Surfing'],"['Afternoon Yummys Guy', 'Early Bird Eater']"
+Dusky,"['Diving', 'Surfing']
+Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']","['Afternoon Yummys Guy', 'Early Bird Eater']"
 Galapagos,Swimming,Afternoon Yummys Guy
+Goblin,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
 Grey,Fishing,Afternoon Yummys Guy
 Hammerhead,Fishing,Afternoon Yummys Guy
 Lemon,Fishing,"['Afternoon Yummys Guy', 'Early Bird Eater']"
+Leopard,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
 Mako,Fishing,Afternoon Yummys Guy
 Nurse,Fishing,Afternoon Yummys Guy
 Other,Surfing,Afternoon Yummys Guy
 Porbeagle,Diving,Afternoon Yummys Guy
 Raggedtooth,Fishing,Afternoon Yummys Guy
-Reef,Fishing,Afternoon Yummys Guy
+Reef,"['Diving', 'Fishing']
+Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",Afternoon Yummys Guy
 Salmon,Swimming,Late Snacker
-Sandbar,Fishing,Afternoon Yummys Guy
+Sandbar,"['Fishing', 'Surfing', 'Swimming']
+Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']","['Afternoon Yummys Guy', 'Evening Dinner Fella', 'Early Bird Eater']"
+Sandtiger,"['Diving', 'Fishing', 'Swimming']
+Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",Afternoon Yummys Guy
+Shovelnose,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
 Silky,Diving,Afternoon Yummys Guy
+Smoothhound,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
+Soupfin,"[], Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']",
 Spinner,Surfing,Afternoon Yummys Guy
 Stingray,Fishing,Late Snacker
 Thresher,Fishing,Afternoon Yummys Guy
 Tiger,Surfing,Afternoon Yummys Guy
 Whaler,Surfing,Afternoon Yummys Guy
 White,Surfing,Afternoon Yummys Guy
-Wobbegong,['Surfing' 'Swimming'],"['Afternoon Yummys Guy', 'Evening Dinner Fella']"
-Zambezi,Swimming,Early Bird Eater
+Whitetip,Diving,Afternoon Yummys Guy
+Wobbegong,"['Surfing', 'Swimming']
+Categories (7, object): ['Bathing', 'Boating', 'Diving', 'Fishing', 'Other', 'Surfing', 'Swimming']","['Afternoon Yummys Guy', 'Evening Dinner Fella']"
+Zambesi,Swimming,Early Bird Eater

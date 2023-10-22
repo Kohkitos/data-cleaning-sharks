@@ -1,9 +1,14 @@
-![cover](https://github.com/Kohkitos/data-cleaning-sharks/blob/main/img/shark2.jpg)
+![header](https://github.com/Kohkitos/data-cleaning-sharks/blob/main/img/shark2.jpg)
 
 # Data Cleaning Project
 Iron Hack's second week Data Cleaning project with Pandas using a data set about Shark Attacks globally.
 
 This `README.md` will work as kind of a blog of my procedure during the project. Any insights will be inside the `sharks.ipynb`.
+
+# 0. Contents
+- `code`: where the data cleaning project and a shark species program is.
+- `img`: just the header image. 
+- `src`: where the source csv is (couldn't be uploaded due to legal reasons) and where the results' csvs are.
 
 # 1. Project Description
 ## The Goal
@@ -56,13 +61,19 @@ When reading the data I saw some values that were weird, such as some weird valu
 - 1) I focused on the 'binary' columns: `sex` and `fatal`.
 - 2) `case_number` used to have a pattern that got lost somehow, so I'm going to fix that using the `pdf` column.
 - 3) Fix incorrect dtypes in `year` and `original order`.
-- 4) Normalizing data on `activity` column.
-- 5) Normalizing data on `species` column.
-- 6) Normalizing `time` column.
-- 7) Normalizing `name` column.
-- 8) Normalizing `age` column.
+- 4) Fixing `date` data type.
+- 5) Normalizing data on `activity` column.
+- 6) Normalizing data on `species` column.
+- 7) Normalizing `time` column.
+- 8) Normalizing `name` column.
+- 9) Normalizing `age` column and creating `adult` column.
 
 The other columns were not normalize because, without information about the csv I don't know if the information should be overwrote or not, even the duplicates, so I leave it to future investigators.
+
+The cleaning is saved until this point.
+
+## 2.4. Correcting data types
+I saved a csv with the steps made before, but in this step I will get rid of most `unknown` values so as to create an optimized dataframe.
 
 # 3. Investigation
 
