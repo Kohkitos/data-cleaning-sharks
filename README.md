@@ -6,7 +6,7 @@ Iron Hack's second week Data Cleaning project with Pandas using a data set about
 This `README.md` will work as kind of a blog of my procedure during the project. Any insights will be inside the `sharks.ipynb`.
 
 # 0. Contents
-- `code`: where the data cleaning project and a shark species program is.
+- `code`: where the data cleaning project and a shark diet program is.
 - `img`: just the header image. 
 - `src`: where the source csv is (couldn't be uploaded due to legal reasons) and where the results' csvs are.
 
